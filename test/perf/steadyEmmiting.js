@@ -12,10 +12,10 @@ var EventEmitter2 = require('../../lib/eventemitter2').EventEmitter2;
 // Emitter2 variations
 var emitter2 = new EventEmitter2();
 var emitter3 = new EventEmitter2();
-var emitter4 = new EventEmitter2({wildcard:true});
-var emitter5 = new EventEmitter2({wildcard:true});
+var emitter4 = new EventEmitter2({wildcard:true, wildcardCache:true});
+var emitter5 = new EventEmitter2({wildcard:true, wildcardCache:true});
 var emitter6 = new EventEmitter2();
-var emitter7 = new EventEmitter2({wildcard:true});
+var emitter7 = new EventEmitter2({wildcard:true, wildcardCache:true});
 
 var t;
 
